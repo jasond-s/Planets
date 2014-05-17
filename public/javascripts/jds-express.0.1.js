@@ -3,7 +3,7 @@
 	var velocity = 0.8;
 	
 	// Parallax
-	$window.scroll(function (){
+	$window.scroll(function () {
 	    var pos = $window.scrollTop();
 	    $('.container').each(function() {
 
@@ -24,9 +24,9 @@
 	        var posTop = $(this).position().top;
 	        var h = $(this).height();
 
-	        console.log(i+' | '+posTop+' pos-less:'+windscroll+' | pos+h:more'+(posTop+h));
+	        // console.log(i+' | '+posTop+' pos-less:'+windscroll+' | pos+h:more'+(posTop+h));
 
-	        if (posTop - 1 <= windscroll && posTop + h > windscroll) {
+	        if (posTop - 10 <= windscroll && posTop + h > windscroll) {
 	            $('.nav-item').removeClass('nav-active');
 	            $('.nav-item').eq(i).addClass('nav-active');
 	        }
