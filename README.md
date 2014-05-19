@@ -7,5 +7,5 @@ Not much else going on here.
 
 see blog posts:
 
-Part 1: http://www.jasonds.co.uk/blog/simple-parallax
-Part 2: http://www.jasonds.co.uk/blog/sticky-nav
+1. http://www.jasonds.co.uk/blog/simple-parallax
+2. http://www.jasonds.co.uk/blog/sticky-nav
